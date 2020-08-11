@@ -12,8 +12,8 @@ var nodemailer = require('nodemailer');
 var transporter = nodemailer.createTransport({
     service: 'gmail',
     auth: {
-        user: 'comunicado.vivastelecom@gmail.com',
-        pass: 'V1V45ADM'
+        user: '',
+        pass: ''
     }
 });
 
